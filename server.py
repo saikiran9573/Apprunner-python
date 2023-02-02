@@ -7,8 +7,8 @@ def hello_world(request):
     name = os.environ.get('NAME')
     if name == None or len(name) == 0:
         name = "CloudCOE"
-    #message = "Hello, This is Srisai " + name + "!\n"
-    message = "Hello All, Welcome to"
+    #message = "Hello, This is sai " + name + "!\n"
+    message = "Hello All, Welcome to" + name + "!\n"
     
     return Response(message)
 
