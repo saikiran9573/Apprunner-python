@@ -8,7 +8,7 @@ def hello_world(request):
     if name == None or len(name) == 0:
         name = "CloudCOE"
     #message = "Hello, This is sai " + name + "!\n"
-    message = "Hello All, Welcome to " + name + "!\n"
+    message = "Good Afternoon all, Welcome to " + name + "!\n"
     
     return Response(message)
 
